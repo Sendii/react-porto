@@ -9,7 +9,7 @@ ReactDOM.render(
     <App />
   </React.StrictMode>,
   */
-  <Hello nama="Sendi Dian Hadiwijaya"/>,
+  <Hello nama="Sendi Dian Hadiwijayaa"/>,
   document.getElementById('root')
 );
 
