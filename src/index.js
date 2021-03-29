@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Hello from './Hello';
 import reportWebVitals from './reportWebVitals';
+import Content from './component/Content'
 
 ReactDOM.render(
   /*<React.StrictMode>
     <App />
   </React.StrictMode>,
   */
-  <Hello nama="Sendi Dian Hadiwijayaa"/>,
+  <Content />,
   document.getElementById('root')
 );
 
