@@ -4,7 +4,7 @@ import Header from './template/Header'
 function Skills(){
 	return(
 		<div className="row">
-			<Header keterangan="Achievement" />
+			<Header keterangan="Skill" />
 			<OuterCard />
 		</div>
 		)
