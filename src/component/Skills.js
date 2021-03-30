@@ -5,6 +5,7 @@ function Skills(){
 	return(
 		<div className="row">
 			<Header keterangan="Skill" />
+			{/*harusnya disini ngasih nilai array ke props buat di loop */}
 			<OuterCard />
 		</div>
 		)
