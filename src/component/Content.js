@@ -1,10 +1,12 @@
 import Navbar from './Navbar'
 import OuterCard from './OuterCard'
+import Header from './Header'
 
 function Content(){
 	return(
-		<div>
+		<div className="row">
 			<Navbar />
+			<Header keterangan="Achievement" />
 			<OuterCard />
 		</div>
 		)
