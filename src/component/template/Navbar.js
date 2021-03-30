@@ -3,7 +3,7 @@ import {
 	BrowserRouter as Router,
 	Switch,
 	Route,
-	Link
+	NavLink
 } from 'react-router-dom'
 import Home from '../../component/Home'
 import Skills from '../../component/Skills'
@@ -13,19 +13,19 @@ function Navbar(){
 		<Router>
 			<ul className="nav">
 				<li>
-					<Link to="/home" className="active">Home</Link>
+					<NavLink to="/home">Home</NavLink>
 				</li>
 				<li>
-					<Link to="/skills">Skill</Link>
+					<NavLink to="/skills">Skill</NavLink>
 				</li>
 				<li>
-					<Link to="/project">Projects</Link>
+					<NavLink to="/project">Projects</NavLink>
 				</li>
 				<li>
-					<Link to="/about">About</Link>
+					<NavLink to="/about">About</NavLink>
 				</li>
 				<li>
-					<Link to="/contact">Contact</Link>
+					<NavLink to="/contact">Contact</NavLink>
 				</li>
 			</ul>
 
