@@ -1,6 +1,6 @@
-import Navbar from './Navbar'
-import OuterCard from './OuterCard'
-import Header from './Header'
+import Navbar from './template/Navbar'
+import OuterCard from './template/OuterCard'
+import Header from './template/Header'
 
 function Content(){
 	return(
