@@ -3,14 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import './css/style.css'
 import reportWebVitals from './reportWebVitals';
-import Content from './component/Content'
+import Home from './component/Home'
 
 ReactDOM.render(
   /*<React.StrictMode>
     <App />
   </React.StrictMode>,
   */
-  <Content />,
+  <Home />,
   document.getElementById('root')
 );
 
