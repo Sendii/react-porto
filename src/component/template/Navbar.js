@@ -6,27 +6,44 @@ import {
 	Link
 } from 'react-router-dom'
 import Home from '../../component/Home'
+import Skills from '../../component/Skills'
 
 function Navbar(){
 	return (
 		<Router>
 			<ul className="nav">
-				{/*<li><a href="/" className="active">Home</a></li>*/}
 				<li>
-					<Link to="/">Home</Link>
+					<Link to="/home" className="active">Home</Link>
 				</li>
-				{/*<li><a href="/work/">News</a></li>*/}
 				<li>
-					<Link to="/news">Home</Link>
+					<Link to="/skills">Skill</Link>
 				</li>
-				<li><a href="/about/">Search</a></li>
-				<li><a href="/clients/">About</a></li>
-				<li><a href="/contact/">Contact</a></li>
+				<li>
+					<Link to="/project">Projects</Link>
+				</li>
+				<li>
+					<Link to="/about">About</Link>
+				</li>
+				<li>
+					<Link to="/contact">Contact</Link>
+				</li>
 			</ul>
 
 			<Switch>
-				<Route path="/">
+				<Route path="/home">
 				<Home />
+				</Route>
+				<Route path="/skills">
+				<Skills />
+				</Route>
+				<Route path="/project">
+				<Skills />
+				</Route>
+				<Route path="/about">
+				<Skills />
+				</Route>
+				<Route path="/contact">
+				<Skills />
 				</Route>
 			</Switch>
 		</Router>

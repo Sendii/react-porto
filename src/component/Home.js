@@ -1,4 +1,3 @@
-import Navbar from './template/Navbar'
 import logo_fb from '../asset/fb.webp'
 import logo_github from '../asset/github.png'
 import logo_linkedin from '../asset/linkedin.png'
@@ -9,7 +8,7 @@ function Home(){
 			{/*<Navbar />*/}
 			<div className="profile">
 				<img src="https://i.pinimg.com/originals/59/ee/c4/59eec4313a3d4d113561916ff255594a.jpg" alt="gaada gambar" />
-				<h1>Ini nama</h1>
+				<h1>Ini namaku</h1>
 				<h4>Ini keterangan</h4>
 				<div className="social-media">
 					<a href="#ea" target="_blank" rel="noreferrer">
