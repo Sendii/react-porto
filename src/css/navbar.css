@@ -5,6 +5,11 @@
   margin:0;
   padding:0;
   text-align:center;
+  top: 0;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 9999;
 }
 .nav li{
   display:inline;

@@ -1,6 +1,9 @@
 html{
 	--border-radius: 5px;
 }
+.row{
+	margin-top: 70px;
+}
 .outer-card{
 	border-radius: var(--border-radius);
 	max-height: 100%;
@@ -104,4 +107,23 @@ html{
 	animation-name: bounce;
 	-moz-animation-name: bounce;
 	background-color: red;
+}
+#about{	
+	margin: 70px 20px 20px 20px;
+}
+#about .content:nth-child(odd){
+	margin-left: 48.5%;
+}
+#about .content{
+	padding: 0 10px;
+	margin: 3px 0;
+	position: relative;
+	width: 50%;
+	max-height: 200px;
+	border-radius: var(--border-radius);
+	background-color: red;
+	display: inline-block;
+}
+#about .content p{
+	word-wrap: break-word;
 }
