@@ -3,18 +3,18 @@ import Card from './Card'
 function OuterCard(){
 	const data = [
 		{
-			'nama': 'Sendi Dian Hadiwijaya',
-			'kelas': 'S2B'
+			'nama': 'Skill 1',
+			'rate': 1
 		},
 		{
-			'nama': 'M Rizky',
-			'kelas': 'S2B'
+			'nama': 'Skill 2',
+			'rate': 2
 		}
 	]
 
 	const content = Object.entries(data).map((v, k) => {
 		return (
-			<Card key={k} name={v[1].nama} kelas={v[1].kelas} />
+			<Card key={k} name={v[1].nama} rate={v[1].rate} />
 			)
 	})
 
