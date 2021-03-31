@@ -27,10 +27,13 @@ html{
 	width: 100px;	
 	display: block;
 }
+.card .skill{
+	margin-left: 96px;
+}
 .card img.rate-skill{
-	margin-top: 0;
 	width: 25px;
 	display: inline-block;
+	margin: 0 -4px;	
 }
 .card p{
 	margin: 0;
