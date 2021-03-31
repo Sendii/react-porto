@@ -3,10 +3,7 @@ import logo_github from '../../asset/github.png'
 import logo_fullstar from '../../asset/full-star.png'
 
 class Card extends React.Component{
-	render(){
-		for (var i = 1; i < this.props.rate; i++) {
-			console.log(logo_fullstar)
-		}
+	render(){		
 		return(
 			<div className="card">
 			<img src={logo_github} alt="gambar" className="logo-skill"/>
