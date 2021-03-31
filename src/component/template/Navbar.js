@@ -8,6 +8,8 @@ import {
 import Home from '../../component/Home'
 import Skills from '../../component/Skills'
 import Project from '../../component/Projects'
+import About from '../../component/About'
+import Contact from '../../component/Contact'
 
 function Navbar(){
 	return (
@@ -41,10 +43,10 @@ function Navbar(){
 				<Project />
 				</Route>
 				<Route path="/about">
-				<Skills />
+				<About />
 				</Route>
 				<Route path="/contact">
-				<Skills />
+				<Contact />
 				</Route>
 			</Switch>
 		</Router>

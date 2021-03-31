@@ -1,11 +1,11 @@
 import Header from './template/Header'
 
-function Projects(){
+function About(){
 	return(
 		<div className="row">
-			<Header keterangan="Projects" />
+			<Header keterangan="About" />
 		</div>
 		)
 }
 
-export default Projects
+export default About
