@@ -5,25 +5,25 @@ function Projects(){
 	const data = [
 		{
 			'nama': 'Project 1',
-			'rate': 1
+			'desc': 'Ini Project 1'
 		},
 		{
 			'nama': 'Project 2',
-			'rate': 2
+			'desc': 'Ini Project 2'
 		},
 		{
 			'nama': 'Project 3',
-			'rate': 5
+			'desc': 'Ini Project 3'
 		},
 		{
 			'nama': 'Project 4',
-			'rate': 4
+			'desc': 'Ini Project 4'
 		},
 	]
-
+	
 	const content = Object.entries(data).map((v, k) => {
 		return (
-			<Card key={k} name={v[1].nama} rate={v[1].rate} />
+			<Card key={k} name={v[1].nama} desc={v[1].desc} />
 			)
 	})
 
