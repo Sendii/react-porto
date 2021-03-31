@@ -7,6 +7,7 @@ import {
 } from 'react-router-dom'
 import Home from '../../component/Home'
 import Skills from '../../component/Skills'
+import Project from '../../component/Projects'
 
 function Navbar(){
 	return (
@@ -37,7 +38,7 @@ function Navbar(){
 				<Skills />
 				</Route>
 				<Route path="/project">
-				<Skills />
+				<Project />
 				</Route>
 				<Route path="/about">
 				<Skills />

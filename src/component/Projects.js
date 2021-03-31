@@ -1,13 +1,12 @@
 import OuterCard from './template/OuterCard'
 import Header from './template/Header'
 
-function Skills(){
+function Projects(){
 	return(
 		<div className="row">
-			<Header keterangan="Skill" />
-			<OuterCard />
+			<Header keterangan="Projects" />
 		</div>
 		)
 }
 
-export default Skills
+export default Projects
