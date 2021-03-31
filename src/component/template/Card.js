@@ -4,6 +4,7 @@ class Card extends React.Component{
 		return(
 			<div className="card">
 				{(this.props.name ? this.props.name : 'ea')}
+				{this.props.kelas}
 
 			</div>
 			)
