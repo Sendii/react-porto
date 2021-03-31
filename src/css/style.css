@@ -109,7 +109,7 @@ html{
 	background-color: red;
 }
 #about{	
-	margin: 70px 20px 20px 20px;
+	/*margin: 70px 0 20px 0;*/
 }
 #about .content:nth-child(odd){
 	margin-left: 48.5%;
