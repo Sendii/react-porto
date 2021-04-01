@@ -1,5 +1,5 @@
 .nav{
-  background-color: #fafa;
+  background-color: #4157A1;
   border-width:1px 0;
   list-style:none;
   margin:0;
@@ -19,6 +19,7 @@
   margin:10px 35px;
   text-decoration: none;
   font-size: 25px;  
+  color: #fff;
 }
 .nav a:not(.active){
   -moz-transition: 0.5s;

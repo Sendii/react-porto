@@ -1,6 +1,10 @@
 html{
 	--border-radius: 5px;
 }
+body{
+	background-color: #F1F0EB;
+	font-family: 'Roboto';
+}
 .row{
 	margin-top: 70px;
 }
@@ -9,7 +13,7 @@ html{
 	max-height: 100%;
 	/*height: 510px;*/
 	min-height: 170px;
-	background-color: #333;
+	background-color: #4157A1;
 	margin: 0 40px;
 	padding: 5px 30px;
 }
@@ -20,7 +24,7 @@ html{
 	width: 23%;
 	height: 160px;
 	border-radius: var(--border-radius);
-	background-color: #fafa;
+	background-color: #659EBC;
 }
 .card img{
 	margin-left: auto;
@@ -41,6 +45,7 @@ html{
 .card p{
 	margin: 0;
 	text-align: center;
+	color: #fff;
 }
 .card img.rate-skill{
 	/*width: 30px;*/
@@ -121,11 +126,12 @@ html{
 	width: 50%;
 	max-height: 200px;
 	border-radius: var(--border-radius);
-	background-color: red;
+	background-color: #659EBC;
 	display: inline-block;
 }
 #about .content p{
 	word-wrap: break-word;
+	color: #fff;
 }
 
 #contact .box{
@@ -135,16 +141,20 @@ html{
 	border-radius: var(--border-radius);
 	padding: 5px 15px;
 	transition: background 0.5s;
+	transition: width 0.5s;
 }
 #contact .box:hover{
-	background-color: grey;
+	background-color: #659EBC;
+	border-radius: 5px 20px 20px 5px;
 	cursor: pointer;
+	width: 32%;
 }
-#contact .in-box{
-	/*justify-content: center;*/
+#contact svg{
+	color: #fff;
 }
 #contact p{
 	display: inline;
 	margin: 0 10px;
 	text-align: center;
+	color: #fff;
 }
