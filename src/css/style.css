@@ -127,3 +127,19 @@ html{
 #about .content p{
 	word-wrap: break-word;
 }
+
+#contact .box{
+	margin: 10px 0;
+	border: 2px solid #fff;
+	width: 30%;
+	border-radius: var(--border-radius);
+	padding: 5px;
+}
+#contact .in-box{
+	text-align: center;
+}
+#contact p{
+	display: inline;
+	margin: 0 10px;
+	text-align: center;
+}
