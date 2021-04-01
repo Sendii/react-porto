@@ -1,6 +1,19 @@
 import Header from './template/Header'
 
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faWhatsapp,
+	faGithub,
+	faLinkedin,
+	faGoogle
+} from '@fortawesome/free-brands-svg-icons' 
+
+library.add(faWhatsapp,
+	faGithub,
+	faLinkedin,
+	faGoogle
+); 
 
 function Contact(){
 	return(
